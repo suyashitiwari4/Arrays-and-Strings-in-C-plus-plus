@@ -1,0 +1,34 @@
+//Suyashi Tiwari
+//24070123115
+#include<iostream>
+using namespace std;
+
+int main() {
+    int num[10] = {10, 20, 30, 40, 50};
+    int target;
+    bool found = false;
+
+    cout << "Enter the value to search in the array: ";
+    cin >> target;
+
+    for (int j = 0; j < 5; j++) {
+        if (target == num[j]) {
+            cout << "Target found at Location: " << j << endl;
+            found = true;
+            break; 
+        }
+    }
+
+    if (!found) {
+        cout << "Target not found in the array." << endl;
+    }
+
+    return 0;
+}
+/*OUTPUT
+Enter the value to search in the array: 30
+Target found at Location: 2
+
+
+=== Code Execution Successful ===
+*/
