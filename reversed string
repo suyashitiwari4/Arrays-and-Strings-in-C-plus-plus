@@ -1,0 +1,24 @@
+//Suyashi Tiwari
+//24070123115
+#include <iostream>
+using namespace std;
+
+int main(){
+   string str;
+   int n;
+   cout<<"Enter a String: ";
+   cin>>str;
+   n=str.length();
+   cout<<"Reversed string:";
+   for(int i=n-1;i>=0;i--)
+   {
+       cout<<str[i];
+   }
+}
+/*
+Output:
+Enter a String: suyashi
+Reversed string:ihsayus
+
+=== Code Execution Successful ===
+*/
