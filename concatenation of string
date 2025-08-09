@@ -1,0 +1,19 @@
+//Suyashi Tiwari
+//24070123115
+#include <iostream>
+using namespace std;
+int main(){
+   string str1,str2,str3;
+   cout<<"Enter a String: ";
+   cin>>str1;
+   cout<<"Enter a String for concatenation : ";
+   cin>>str2;
+   str3=str1+str2;
+   cout<<str3;
+}
+/*
+Output:
+Enter a String: Suyashi
+Enter a String for concatenation : Tiwari
+SuyashiTiwari
+*/
